@@ -7,7 +7,8 @@ class MathsForML:
         pass
     def run(self):
         st.title("Mathematics for Machine Learning :books:")
-        st.subheader("This app is designed to help you understand the mathematics behind machine learning. :computer:")
+        st.subheader("This app is designed to help you understand the mathematics behind machine learning.\
+                     I think this sources will be helpful for you... :computer:")
         st.write("Written by: [Atalay Erdogan] :writing_hand:")
         with st.form(key='my_form'):
             box = st.selectbox("Select the topic", ["Linear Algebra", "Calculus"])

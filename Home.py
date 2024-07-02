@@ -16,6 +16,7 @@ class MathsForML:
                 st.switch_page(os.getcwd() + "/pages/LinearAlgebra.py")
             elif box == "Calculus" and st.form_submit_button("Go to the page"):
                 st.switch_page(os.getcwd() + "/pages/Calculus.py")
+        st.write("It will be grateful if you buy me a coffee :coffee:")
         button(username="atalayerdgn", floating=False, width=221)
     
 def main():
